@@ -1,11 +1,21 @@
 import React, { useState } from 'react';
 import { FaTimes, FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon } from './NavBar.elements'
+import { Nav,
+        NavbarContainer,
+        NavLogo,
+        NavIcon,
+        MobileIcon,
+        NavMenu,
+        NavItem,
+        NavLinks
+    } from './NavBar.elements'
 
 const NavBar = () => {
 
     const [ click, setClick ] = useState(false)
+
+    const haledClick = ()=> setClick(!click)
     return (
         <IconContext.Provider 
             value={{
@@ -19,12 +29,21 @@ const NavBar = () => {
                         ULTRA
                         
                     </NavLogo>
-                    <MobileIcon>
+                    <MobileIcon 
+                        onClick={haledClick}
+                    >
                             { click ? <FaTimes/>
                                 : 
                                 <FaBars/>
                             }
-                        </MobileIcon>
+                    </MobileIcon>
+                    <NavMenu>
+                        <NavItem>
+                            <NavLinks to='/'>
+                                Homa
+                            </NavLinks>
+                        </NavItem>
+                    </NavMenu>
                 </NavbarContainer>
             </Nav>
         </IconContext.Provider>
