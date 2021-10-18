@@ -1,12 +1,13 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { NavBar } from './components'
 
 const App = () => {
   return (
-    <div>
-      <h1>desde el apsdfsdfsf</h1>
+    <Router>
+      
       <NavBar/>
-    </div>
+    </Router>
   )
 }
 
