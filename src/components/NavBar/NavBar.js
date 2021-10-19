@@ -37,12 +37,21 @@ const NavBar = () => {
                                 <FaBars/>
                             }
                     </MobileIcon>
-                    <NavMenu click>
+                    <NavMenu click={click} >
                         <NavItem>
                             <NavLinks to='/'>
-                                Homa
+                                Home
                             </NavLinks>
-                            
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='/services'>
+                                Services
+                            </NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='/products'>
+                                Products
+                            </NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>
