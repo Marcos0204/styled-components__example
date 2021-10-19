@@ -1,11 +1,8 @@
-import React from 'react'
+import styled from 'styled-components';
 
-const infoSection.elements = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
 
-export default infoSection.elements
+export const InfoSec = styled.div`
+  color: #fff;
+  padding: 160px 0;
+  background: ${({lightBg}) => (lightBg ? '#fff' : '#101522')};
+`

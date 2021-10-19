@@ -1,2 +1,2 @@
 export { default as NavBar } from './NavBar/NavBar';
-export { default as infoSection} from './infoSection/infoSection' 
+export { default as InfoSection} from './InfoSection/InfoSection' 
