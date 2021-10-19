@@ -37,11 +37,12 @@ const NavBar = () => {
                                 <FaBars/>
                             }
                     </MobileIcon>
-                    <NavMenu>
+                    <NavMenu click>
                         <NavItem>
                             <NavLinks to='/'>
                                 Homa
                             </NavLinks>
+                            
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>
