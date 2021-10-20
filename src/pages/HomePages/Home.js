@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { InfoSection } from '../../components'
 
 const Home = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <InfoSection/>
+        </>
     )
 }
 
