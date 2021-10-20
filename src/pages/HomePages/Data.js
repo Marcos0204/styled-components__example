@@ -11,4 +11,7 @@ export const HomeObjOne = {
     headLine:"Lead Generation Specialist for Online Businesses.",
     lightText:true,
     topLine:'Marketing Agency',
+    img:'',
+    start:'',
+    alt:'image'
 }

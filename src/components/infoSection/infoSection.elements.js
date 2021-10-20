@@ -65,8 +65,24 @@ export const Heading= styled.h1`
 
 export const SubTitle = styled.p`
   max-width: 440px;
-  margin-bottom: 35px;
+  margin: 0 auto 35px auto;
+  //margin: 0 auto;
   font-size: 18px;
   line-height: 24px;
-  color : ${({lightTextDes}) => (lightTextDes ? '#a9b3c1' : '#1c2237')}
+  color : ${({lightTextDes}) => (lightTextDes ? '#a9b3c1' : '#1c2237')};
+`
+
+export const ImgRapper = styled.div`
+  max-width: 555px;
+  display: flex;
+  justify-content: ${({start}) =>( start ? 'flex-start' : 'flex-end' )};
+`
+
+export const Img = styled.img`
+  padding-right: 0;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  max-height: 500px;
 `
