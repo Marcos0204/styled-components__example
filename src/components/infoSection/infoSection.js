@@ -15,7 +15,12 @@ const infoSection = ({lightBg, ImgStart}) => {
                     <InfoRow ImgStart={ImgStart}>
                         <InfoColumn>
                             <TextWrapper>
-
+                                Home page
+                            </TextWrapper>
+                        </InfoColumn>
+                        <InfoColumn>
+                            <TextWrapper>
+                                Home page
                             </TextWrapper>
                         </InfoColumn>
                     </InfoRow>
