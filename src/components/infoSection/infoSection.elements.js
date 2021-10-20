@@ -17,7 +17,7 @@ export const InfoRow = styled.div`
 `
 
 export const InfoColumn = styled.div`
-  //margin-bottom: 15px;
+  margin-bottom: 15px;
   //margin-right: 15px;
   //margin-left: 15px;
   flex: 1;
@@ -45,4 +45,28 @@ export const TextWrapper = styled.div`
   @media screen and (max-width: 768px){
     padding-bottom: 65px;
   }
+`
+
+export const TopLine = styled.div`
+  color : ${({lighTopLine}) => (lighTopLine ? '#a9b3c1' :'#4B59F7')};
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 1.4px;
+  margin-bottom: 16px;
+
+`
+
+export const Heading= styled.h1`
+  margin-bottom: 2.4rem;
+  font-size: 48px;
+  line-height: 1.1px;
+  color : ${({lightText}) => (lightText ? '#f7f8fa' : '#1c2237')};
+`
+
+export const SubTitle = styled.p`
+  max-width: 440px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+  color : ${({lightTextDes}) => (lightTextDes ? '#a9b3c1' : '#1c2237')}
 `

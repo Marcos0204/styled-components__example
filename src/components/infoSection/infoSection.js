@@ -1,13 +1,29 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { Button, Container } from  '../../globalStyles';
 import { InfoSec,
         InfoRow,
         InfoColumn,
-        TextWrapper
+        TextWrapper,
+        TopLine,
+        Heading,
+        SubTitle,
+
     } from './InfoSection.elements'
 
-import { Container } from  '../../globalStyles';
+const infoSection = ({
+    lightBg,
+    ImgStart,
+    lighTopLine,
+    topLine,
+    lightText,
+    headLine,
+    lightTextDes,
+    description,
+    primary,
+    bottomLabel
 
-const infoSection = ({lightBg, ImgStart}) => {
+    }) => {
     return (
         <>
             <InfoSec lightBg={lightBg} >
@@ -15,12 +31,14 @@ const infoSection = ({lightBg, ImgStart}) => {
                     <InfoRow ImgStart={ImgStart}>
                         <InfoColumn>
                             <TextWrapper>
-                                Home page
-                            </TextWrapper>
-                        </InfoColumn>
-                        <InfoColumn>
-                            <TextWrapper>
-                                Home page
+                                <TopLine lighTopLine={lighTopLine} >{topLine}</TopLine>
+                                <Heading lightText={lightText}> {headLine} </Heading>
+                                <SubTitle lightTextDes={lightTextDes}>{description}</SubTitle>
+                                <Link to='/sign-up'>
+                                    <Button big fontBig primary={primary}>
+                                        {bottomLabel}
+                                    </Button>
+                                </Link>
                             </TextWrapper>
                         </InfoColumn>
                     </InfoRow>
