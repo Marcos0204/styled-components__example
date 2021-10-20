@@ -1,4 +1,5 @@
-
+//import img1 from '../../images/profile.jpg';
+import svg1 from '../../images/svg-1.svg'
 
 export const HomeObjOne = {
     primary: true,
@@ -11,7 +12,7 @@ export const HomeObjOne = {
     headLine:"Lead Generation Specialist for Online Businesses.",
     lightText:true,
     topLine:'Marketing Agency',
-    img:'',
+    img: svg1,
     start:'',
     alt:'image'
 }
