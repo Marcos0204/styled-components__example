@@ -1,8 +1,13 @@
 import React from 'react';
-import { InfoSec } from './InfoSection.elements'
+import { InfoSec,
+        InfoRow,
+        InfoColumn,
+        TextWrapper
+    } from './InfoSection.elements'
+
 import { Container } from  '../../globalStyles';
 
-const infoSection = ({lightBg}) => {
+const infoSection = ({lightBg, ImgStart}) => {
     return (
         <>
             <InfoSec lightBg={lightBg} >
