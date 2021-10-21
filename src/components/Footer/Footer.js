@@ -28,6 +28,43 @@ const Footer = () => {
                     <Button > Suscribe</Button>
                 </Form>
             </FooterSubCription>
+            <FooterLinkContainer>
+                <FooterLinkWrapper>
+                    <FooterLinkItems>
+                        <FooterLinkTitle>About Us</FooterLinkTitle>
+                        <FooterLink to='/sign_up'>How to Works</FooterLink>
+                        <FooterLink to='/'>Testimonials</FooterLink>
+                        <FooterLink to='/'>Careers</FooterLink>
+                        <FooterLink to='/'>Investors</FooterLink>
+                        <FooterLink to='/'>Terms of Service</FooterLink>
+                    </FooterLinkItems>
+                    <FooterLinkItems>
+                        <FooterLinkTitle>Contact Us</FooterLinkTitle>
+                        <FooterLink to='/sign_up'>How to Works</FooterLink>
+                        <FooterLink to='/'>Testimonials</FooterLink>
+                        <FooterLink to='/'>Careers</FooterLink>
+                        <FooterLink to='/'>Investors</FooterLink>
+                        <FooterLink to='/'>Terms of Service</FooterLink>
+                    </FooterLinkItems>
+                    <FooterLinkItems>
+                        <FooterLinkTitle>Videos</FooterLinkTitle>
+                        <FooterLink to='/sign_up'>How to Works</FooterLink>
+                        <FooterLink to='/'>Testimonials</FooterLink>
+                        <FooterLink to='/'>Careers</FooterLink>
+                        <FooterLink to='/'>Investors</FooterLink>
+                        <FooterLink to='/'>Terms of Service</FooterLink>
+                    </FooterLinkItems>
+                    <FooterLinkItems>
+                        <FooterLinkTitle>Social Media</FooterLinkTitle>
+                        <FooterLink to='/sign_up'>How to Works</FooterLink>
+                        <FooterLink to='/'>Testimonials</FooterLink>
+                        <FooterLink to='/'>Careers</FooterLink>
+                        <FooterLink to='/'>Investors</FooterLink>
+                        <FooterLink to='/'>Terms of Service</FooterLink>
+                    </FooterLinkItems>
+                    
+                </FooterLinkWrapper>
+            </FooterLinkContainer>
         </FooterContainer>
     )
 }
