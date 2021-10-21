@@ -42,7 +42,7 @@ const NavBar = () => {
         >
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>
+                    <NavLogo to='/' onClick={haledClick}>
                         <NavIcon/>
                         ULTRA
                         
@@ -55,14 +55,14 @@ const NavBar = () => {
                                 <FaBars/>
                             }
                     </MobileIcon>
-                    <NavMenu click={click} >
+                    <NavMenu click={click}  onClick={haledClick}>
                         <NavItem>
                             <NavLinks to='/'>
                                 Home
                             </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='/services'>
+                            <NavLinks to='/services' >
                                 Services
                             </NavLinks>
                         </NavItem>
