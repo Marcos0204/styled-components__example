@@ -1,7 +1,7 @@
 import React from 'react';
 import GlobalStyles from './globalStyles';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { NavBar } from './components'
+import { NavBar, Footer } from './components'
 import Home from './pages/HomePages/Home';
 
 const App = () => {
@@ -12,6 +12,7 @@ const App = () => {
       <Switch>
         <Route exact path='/' component={Home}  />
       </Switch>
+      <Footer/>
     </Router>
   )
 }
