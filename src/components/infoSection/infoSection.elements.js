@@ -24,8 +24,6 @@ export const InfoColumn = styled.div`
   //max-width: 50%;
   //width: 100%;
   flex-basis: 50%;
-  background-color: red;
-  //background-color: yellow;
   @media screen and (max-width: 768px){
   
     //width: 100vh;
