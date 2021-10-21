@@ -59,6 +59,10 @@ export const FormInput = styled.input`
     border: none;
     font-size: 16px;
     border: 1px solid #fff;
+    &::placeholder{
+        color: red;
+        font-weight: bold;
+    };
     @media screen and (max-width: 820px){
         margin:0 0 1rem 0;
     }
