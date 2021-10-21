@@ -5,7 +5,12 @@ import { FooterContainer,
         FooterSubHeading,
         FooteSubText,
         Form,
-        FormInput
+        FormInput,
+        FooterLinkContainer,
+        FooterLinkWrapper,
+        FooterLinkItems,
+        FooterLinkTitle,
+        FooterLink
 } from './Footer.elements';
 
 const Footer = () => {
